@@ -3,7 +3,7 @@
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)
 *   [Block Elements](#block-elements)
-    *   [Paragraphs and Line Breaks](#paragraphs-and-line-lreaks)
+    *   [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
     *   [Headers](#headers)
     *   [Blockquotes](#blockquotes)
     *   [Lists](#lists)
