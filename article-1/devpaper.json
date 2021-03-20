@@ -1,0 +1,5 @@
+{
+  "header": "Test article 1",
+  "tags": ["devpaper", "test", "article"],
+  "contentFile": "./test.md"
+}

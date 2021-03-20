@@ -1,0 +1,7 @@
+{
+    "header": "Test article 2",
+    "tags": ["devpaper", "test", "article"],
+    "links": {
+        "prev": 1
+    }
+}

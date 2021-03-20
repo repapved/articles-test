@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "articles": [
+    {
+      "path": "./article-1/",
+      "uid": 1
+    },
+    {
+      "path": "./article-2/",
+      "uid": 2
+    }
+  ]
+}
