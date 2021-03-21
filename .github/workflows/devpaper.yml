@@ -26,4 +26,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEVPAPER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          DEVPAPER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
