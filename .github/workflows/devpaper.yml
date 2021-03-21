@@ -2,7 +2,7 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push event for the main branch
   push:
     branches: [ main ]
 
@@ -20,14 +20,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Probot Example
-        uses: probot/example-github-action@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
-      # Runs a single command using the runners shell
       - name: Devpaper poster
         uses: repapved/devpaper-gh-poster@v1.1.0
         env:
