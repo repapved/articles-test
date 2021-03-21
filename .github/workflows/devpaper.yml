@@ -23,9 +23,13 @@ jobs:
       
       - name: Probot Example
         uses: probot/example-github-action@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
       # Runs a single command using the runners shell
       - name: Devpaper poster
         uses: repapved/devpaper-gh-poster@v1.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
