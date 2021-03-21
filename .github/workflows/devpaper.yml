@@ -25,4 +25,5 @@ jobs:
         uses: repapved/devpaper-post-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEVPAPER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
